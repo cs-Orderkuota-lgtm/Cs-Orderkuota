@@ -1,0 +1,110 @@
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Login - Orderkuota WebReport</title>
+    <!-- Favicon-->
+    <link rel="icon" href="https://okereport.com/public/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core Css -->
+    <link href="https://okereport.com/public/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Waves Effect Css -->
+    <link href="https://okereport.com/public/plugins/node-waves/waves.css" rel="stylesheet" />
+    <!-- Animation Css -->
+    <link href="https://okereport.com/public/plugins/animate-css/animate.css" rel="stylesheet" />
+    <!-- Materialize Css -->
+    <link href="https://okereport.com/public/css/materialize.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="https://okereport.com/public/css/style.css" rel="stylesheet">
+	<style>
+			.btn-danger {
+			
+			text-transform: uppercase;
+			color: #FFF;
+			background-color: #C12E2A;
+			
+		}
+		.btn-danger a:visited{
+			
+			color: #FFF !important;
+			background-color: #C12E2A;
+			
+		}
+		.btn-danger a:link{
+			
+			color: #FFF !important;
+			background-color: #C12E2A;
+			
+		}
+	
+	</style>
+</head>
+
+<body class="login-page">
+    <div class="login-box" style="padding:10px 10px 10px 10px">
+        <div class="logo">
+            <a href="javascript:void(0);">Login Web Report</a>
+        </div>
+                                <div class="card">
+            <div class="body">
+                <form action="https://okereport.com/auth/login" class="login-form"  method="post" accept-charset="utf-8">
+<input type="hidden" name="csrf_test_name" value="14ad4e279e8e142e9b0e90f1a5047d22" />                                                                                                                            
+                    <div class="msg"><b>Order Kuota</b></div>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">person</i>
+                        </span>
+                        <div class="form-line">
+                            <input type="text" class="form-control" name="email" placeholder="Email Terdaftar" required autofocus>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">lock</i>
+                        </span>
+                        <div class="form-line">
+                            <input type="password" class="form-control" name="password" placeholder="Password Akun" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-7">
+                            <input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">
+                            <label for="rememberme">Ingat Sandi</label>
+                        </div>
+                        <div class="col-xs-5 text-right">
+                            <a  href="https://orderkuota.com/user/forgot-password">Lupa Sandi?</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <input type="submit" name="submit" id="submit" class="btn btn-block btn-success waves-effect" value="Masuk">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <a  class="btn btn-block " style="width:100%"  href="https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=https%3A%2F%2Fokereport.com%2Fauth%2Fgoogle&client_id=716487638715-k9pfqbcvngn3kqvlmg6kqlo3g8e63mg7.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&access_type=online&approval_prompt=auto"><i class="fa fa-google left"></i> Login dengan Google</a>
+                        </div>
+                    </div>
+                 
+                </form>            </div>
+        </div>
+    </div>
+
+    <!-- Jquery Core Js -->
+    <script src="https://okereport.com/public/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core Js -->
+    <script src="https://okereport.com/public/plugins/bootstrap/js/bootstrap.js"></script>
+    <!-- Waves Effect Plugin Js -->
+    <script src="https://okereport.com/public/plugins/node-waves/waves.js"></script>
+    <!-- Validation Plugin Js -->
+    <script src="https://okereport.com/public/plugins/jquery-validation/jquery.validate.js"></script>
+    <!-- Custom Js -->
+    <script src="https://okereport.com/public/js/admin.js"></script>
+    <script src="https://okereport.com/public/js/pages/examples/sign-in.js"></script>
+</body>
+
+</html>
